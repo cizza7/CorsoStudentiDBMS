@@ -7,11 +7,11 @@ import java.sql.SQLException;
 public class DBConnectionSingleton {
 	// MYSQL_CONNECTION_PARAMETERS
 	private final static String DB_DRIVER_CLASS = "com.mysql.cj.jdbc.Driver";
-	private final static String USER = "root";
-	private final static String PASSWORD = "root";
-	private final static String SCHEMA_NAME = "studentilaurea";
+	private final static String USER = ;
+	private final static String PASSWORD = ;
+	private final static String SCHEMA_NAME =;
 	private final static String PROPERTY = "?useLegacyDatetimeCode=false&useSSL=false&serverTimezone=Europe/Amsterdam";
-	private final static String URL = "jdbc:mysql://localhost:3306/" + SCHEMA_NAME + PROPERTY;
+	private final static String URL = "jdbc:mysql://<repo>" + SCHEMA_NAME + PROPERTY;
 
 	private static Connection connection;
 	private static DBConnectionSingleton istance;
